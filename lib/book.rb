@@ -8,6 +8,6 @@ class Book
   end
 
   def turn_page
-    @page_count += 1
+    @page_count = self.page_count 1
   end
 end
