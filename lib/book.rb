@@ -7,7 +7,7 @@ class Book
     @title = title
   end
 
-  def turn_page(num)
+  def turn_page
     @page_count += num
   end
 end
